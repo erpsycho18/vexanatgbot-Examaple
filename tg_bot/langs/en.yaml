@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇺🇲"
 # name of people(s) who worked on this translation
-authors: "@dank_as_fuck"
+authors: "@itzz_Axel"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -9,41 +9,30 @@ set_chat_lang: "Great, {} it is from now on!"
 
 
 pm_start_text: |
-   Hi {}, I'm {},
-   I am an Anime themed group management bot with some fun extras ;)
-   
-   I can do a variety of things, most common of em are:
-   - Restrict users with *ban permissions*.
-   - Greet users with media + text and buttons, with proper formatting.
-   - Restrict users who flood your chat using my *anti-flood* module.
-   - *Warn* users according to the options set and restrict em accordingly.
-   - Save notes and filters with proper formatting and reply markup.
-   
-   Theres even more! this is just the tip of the iceberg. Do note I need
-   to be promoted with proper admin permissions to function properly. 
-   Else I won't be able to function as said.
+ ʜɪ  ᴍʏ ɴᴀᴍᴇ ɪꜱ Vexana [🤖](https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg)!
+    ɪ ᴀᴍ ᴀ  ᴘᴏᴡᴇʀꜰᴜʟʟ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ, ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
+    💍✗ 💍[ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ](ᴛ.ᴍᴇ/ᴠᴇxᴀɴᴀ_ᴜᴘᴅᴀᴛᴇꜱ) 💙.
+    💍✗ 💍[ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](ᴛ.ᴍᴇ/ᴠᴇxᴀɴᴀ_ꜱᴜᴘᴘᴏʀᴛ)💙.
+    ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴛʜᴇ ʟɪꜱᴛ ᴏꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡɪᴛʜ /help..
+    You can also hack anyone telegram account by using me...
    
    *Click on help to learn more!*
    
-grp_start_text: "Hi, I'm Kigyo."
+grp_start_text: "Vexana Working on it full potential Report Bugs here @VExana_Support ."
 
 pm_help_text: |
-   Hello there! My name is *Kigyo*. A part of *Eagle Union*.
-   I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of
-   the things I can help you with.
-   *Main* commands available:
-    • /start: Starts me, can be used to check I'm alive or not.
-    • /help: PM's you this message.
-    • /language: Change bot language.
-    • /settings:
-      - in PM: will send you your settings for all supported modules.
-      - in a group: will redirect you to pm, with all that chat's settings.
-    Click on the buttons below to get documentation about specific modules!
+ *Main Commands :* [🤖](https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg)
+  • /help <module name>: PM's you info about that module.
+  • /hack: To hack any telegram account.
+  • /donate: information on how to donate!
+  • /settings:
+    • in PM: will send you your settings for all supported modules.
+    • in a group: will redirect you to pm, with all that chat's settings.
 
-add_bot_to_group_btn: "Add Kigyo"
-support_chat_link_btn: "Support"
-updates_channel_link_btn: "Updates"
-src_btn: "Source code"
+add_bot_to_group_btn: "➕ Add To Me Your Group ➕"
+support_chat_link_btn: "Support Group"
+updates_channel_link_btn: "Vexana News"
+src_btn: "VexanaFanClub"
 
 admin_help: |
    • `/admins`*:* list of admins in the chat
@@ -211,7 +200,7 @@ FED_USER_HELP: |
     • `/frules`*:* See Federation regulations
 
 formt_help_bse: |
-    Kigyo supports a large number of formatting options to make your messages more expressive. Take a look!
+    Vexana supports a large number of formatting options to make your messages more expressive. Take a look!
 
 md_help: |
     <b>Markdown Formatting</b>
@@ -448,20 +437,18 @@ greetings_help: |
        • `/welcomehelp`*:* view more formatting information for custom welcome/goodbye messages.
 
 nation_help: |
-      - /eagle - Lists all Eagle Union members.
-      - /royals - Lists all Royal Nations.
-      - /sakuras - Lists all Sakura Nations.
-      - /sardegnas - Lists all Sardegnas Nations.
-      - /neptunians - Lists all Neptunia Nations.
-      Note: These commands list users with special bot priveleges and can only be used by them.
-      You can visit @YorktownEagleUnion to query more about these.
+      - /VexanaFanClub - Lists all VexanaFanClub members.
+      - /Sudo - Lists all Sudo Member.
+      - /Sudoplus - Lists all Sudoplus Member.
+      - /Wolf - Lists all Wolf Member.
+      - /Wolfplus - Lists all Wolfplus Member.
+      You can visit @VexanaFanClub to query more about these or for any help .
 
 nlp_help: |
 
       *Chatroom Spam Prediction*
-       This feature uses @Intellivoid's Coffeehouse AI to
+       This feature uses Intevoid @Spamreport AI to
        process chat messages and detect spam.
-       This comes under Coffehouse' NLP. Learn more about
        it [here](https://docs.intellivoid.net/coffeehouse/v1/nlp/spam_prediction/chatroom)
        *Command:*
         • `/nlpstat <on/off/yes/no>`*:* toggle NLP in your chat.

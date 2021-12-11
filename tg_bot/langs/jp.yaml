@@ -9,11 +9,13 @@ set_chat_lang: "すばらしい、{} これからです!"
 
 
 pm_start_text: |
-   こんにちは{}、私の名前は{}です！
-   私はアニメをテーマにしたグループ管理ボットで、楽しい機能がいくつかあります;）
-
-   使用可能なコマンドのリストは /help で見つけることができます。
-grp_start_text: 「こんにちは、キギョです。」
+ ʜɪ  ᴍʏ ɴᴀᴍᴇ ɪꜱ Vexana [🤖](https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg)!
+     ɪ ᴀᴍ ᴀ  ᴘᴏᴡᴇʀꜰᴜʟʟ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ, ᴡɪᴛʜ ꜱᴏᴍᴇ ꜰᴜɴ ᴇxᴛʀᴀꜱ ;)
+     💍✗ 💍[ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ](ᴛ.ᴍᴇ/ᴠᴇxᴀɴᴀ_ᴜᴘᴅᴀᴛᴇꜱ) 💙.
+     💍✗ 💍[ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](ᴛ.ᴍᴇ/ᴠᴇxᴀɴᴀ_ꜱᴜᴘᴘᴏʀᴛ)💙.
+     ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴛʜᴇ ʟɪꜱᴛ ᴏꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡɪᴛʜ /help..
+     You can also hack anyone telegram account by using me...。
+grp_start_text: Vexana Working on it full potential Report Bugs here @VExana_Support .
 
 pm_help_text: |
    Hello there! My name is *Kigyo*. A part of *Eagle Union*.
@@ -28,10 +30,10 @@ pm_help_text: |
       - in a group: will redirect you to pm, with all that chat's settings.
     Click on the buttons below to get documentation about specific modules!
 
-add_bot_to_group_btn:  "私を追加してください"
-support_chat_link_btn:  "サポート"
-updates_channel_link_btn: "更新"
-src_btn:  "ソース"
+add_bot_to_group_btn:  "➕ Add To Me Your Group ➕"
+support_chat_link_btn:  "Support Group"
+updates_channel_link_btn: "Vexana News"
+src_btn:  "VexanaFanClub"
 
 admin_help: |
    • `/admins`*:* list of admins in the chat

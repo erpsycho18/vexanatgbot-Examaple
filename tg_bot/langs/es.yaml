@@ -10,9 +10,9 @@ pm_start_text: |
   Soy un bot para gestionar grupos con cosas divertidas.
   
   Puedes encontrar una lista con los comandos disponibles escribiendo /help
-grp_start_text: "Hola, soy Kigyo."
+grp_start_text: "Hola, soy VExana."
 pm_help_text: |
-  Que pasa! Me llamo *Kigyo*. Soy un bot para gestionar grupos con extras divertidos! Estos comandos principales te ayudarán a iniciar el bot.
+  Que pasa! Me llamo *Vexana*. Soy un bot para gestionar grupos con extras divertidos! Estos comandos principales te ayudarán a iniciar el bot.
   • /help: Te envía este mensaje.
   • /language: Cambia el idioma del bot.
   • /settings:
@@ -20,10 +20,10 @@ pm_help_text: |
    - en el grupo: Te enviará por PM la configuración del grupo.
   
   Click en los botones que hay a continuación para obtener documentación acerca de los módulos.
-add_bot_to_group_btn: "Añade Kigyo a tu grupo"
-support_chat_link_btn: "Chat de soporte"
-updates_channel_link_btn: "Canal de actualizaciones de Kgyo"
-src_btn: "Código fuente (Licensed under GPLv3)"
+add_bot_to_group_btn: " Add To Me Your Group ➕"
+support_chat_link_btn: "Support Group"
+updates_channel_link_btn: "Vexana News"
+src_btn: "VexanaFanClub"
 admin_help: |
   • /admins: lista de administradores del canal.
   
