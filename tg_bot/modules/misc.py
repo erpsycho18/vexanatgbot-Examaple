@@ -89,17 +89,15 @@ def get_id(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.HTML,
             )
 
+    elif chat.type == "private":
+        msg.reply_text(
+            f"Your id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
+        )
+
     else:
-
-        if chat.type == "private":
-            msg.reply_text(
-                f"Your id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
-            )
-
-        else:
-            msg.reply_text(
-                f"This group's id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
-            )
+        msg.reply_text(
+            f"This group's id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
+        )
 
 @kigcmd(command='gifid')
 def gifid(update: Update, _):
@@ -330,7 +328,7 @@ def stats(update, context):
     ]
     repo = git.Repo(search_parent_directories=True)
     sha = repo.head.object.hexsha
-    status += f"*• Commit*: `{sha[0:9]}`\n"
+    status += f'*• Commit*: `{sha[:9]}`\n'
     try:
         update.effective_message.reply_text(status +
             "\n*Bot statistics*:\n"
