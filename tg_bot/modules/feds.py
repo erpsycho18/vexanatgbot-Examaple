@@ -234,19 +234,14 @@ def join_fed(update, context):
     fed_id = sql.get_fed_id(chat.id)
     args = context.args
 
-    if user.id in SUDO_USERS:
-        pass
-    else:
+    if user.id not in SUDO_USERS:
         for admin in administrators:
             status = admin.status
-            if status == "creator":
-                if str(admin.user.id) == str(user.id):
-                    pass
-                else:
-                    update.effective_message.reply_text(
-                        "Only group creators can use this command!"
-                    )
-                    return
+            if status == "creator" and str(admin.user.id) != str(user.id):
+                update.effective_message.reply_text(
+                    "Only group creators can use this command!"
+                )
+                return
     if fed_id:
         message.reply_text("You cannot join two federations from one chat")
         return
@@ -263,15 +258,14 @@ def join_fed(update, context):
             return
 
         get_fedlog = sql.get_fed_log(args[0])
-        if get_fedlog:
-            if ast.literal_eval(get_fedlog):
-                context.bot.send_message(
-                    get_fedlog,
-                    "Chat *{}* has joined the federation *{}*".format(
-                        chat.title, getfed["fname"]
-                    ),
-                    parse_mode="markdown",
-                )
+        if get_fedlog and ast.literal_eval(get_fedlog):
+            context.bot.send_message(
+                get_fedlog,
+                "Chat *{}* has joined the federation *{}*".format(
+                    chat.title, getfed["fname"]
+                ),
+                parse_mode="markdown",
+            )
 
         message.reply_text(
             "This chat has joined the federation: {}!".format(getfed["fname"])
@@ -299,15 +293,14 @@ def leave_fed(update, context):
     if getuser in "creator" or user.id in SUDO_USERS:
         if sql.chat_leave_fed(chat.id) is True:
             get_fedlog = sql.get_fed_log(fed_id)
-            if get_fedlog:
-                if ast.literal_eval(get_fedlog):
-                    context.bot.send_message(
-                        get_fedlog,
-                        "Chat *{}* has left the federation *{}*".format(
-                            chat.title, fed_info["fname"]
-                        ),
-                        parse_mode="markdown",
-                    )
+            if get_fedlog and ast.literal_eval(get_fedlog):
+                context.bot.send_message(
+                    get_fedlog,
+                    "Chat *{}* has left the federation *{}*".format(
+                        chat.title, fed_info["fname"]
+                    ),
+                    parse_mode="markdown",
+                )
             send_message(
                 update.effective_message,
                 "This chat has left the federation {}!".format(fed_info["fname"]),

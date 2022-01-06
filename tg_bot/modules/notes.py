@@ -199,9 +199,9 @@ def get(update, context, notename, show_none=True, no_format=False):
                     sql.rm_note(chat_id, notename)
                 else:
                     message.reply_text(
-                        "This note could not be sent, as it is incorrectly formatted. Ask in "
-                        f"@YorkTownEagleUnion if you can't figure out why!"
+                        "This note could not be sent, as it is incorrectly formatted. Ask in @YorkTownEagleUnion if you can't figure out why!"
                     )
+
                     log.exception(
                         "Could not parse message #%s in chat %s", notename, str(note_chat_id)
                     )
@@ -386,7 +386,7 @@ def list_notes(update: Update, context: CallbackContext):
     if not note_list:
         update.effective_message.reply_text("No notes in this chat!")
 
-    elif len(msg) != 0:
+    elif msg != '':
         update.effective_message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
 
 
